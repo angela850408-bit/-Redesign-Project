@@ -70,6 +70,9 @@ html{
                     max-width: 600px;
                     overflow: hidden;
                     border-radius: 30px;
+                    height:400px
+                                
+                            
                 }
                 .slider-dots{
                     position: absolute;
@@ -98,6 +101,7 @@ html{
                     scrollbar-width:none;
                     scroll-snap-type: x mandatory;
                     scroll-behavior: smooth;
+                    height:100%
                     
                 }
                 .slider-container::-webkit-scrollbar{
@@ -106,7 +110,7 @@ html{
                 .slider-container img{
                     flex: 0 0 100%;
                     width: 100%;
-                    height: auto;
+                    height: 100%;
                     object-fit: cover;
                     border-radius: 30px;
                     scroll-snap-align: center;
@@ -338,7 +342,8 @@ html{
             }
             .hero-images{
                 width: 100%;
-                margin-top: 10%;
+                margin-top: 10%
+                height:250px;
             }
             .nav-container a{
                 padding: 10px;
